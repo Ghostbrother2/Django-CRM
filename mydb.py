@@ -2,7 +2,7 @@ import mysql.connector
 database = mysql.connector.connect(
     host="localhost",
     user="root",
-    passwd="16929343",
+    passwd="",
 )
 cursor = database.cursor()
 cursor.execute("CREATE DATABASE IF NOT EXISTS dcrm")
