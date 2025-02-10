@@ -7,6 +7,3 @@ database = mysql.connector.connect(
 cursor = database.cursor()
 cursor.execute("CREATE DATABASE IF NOT EXISTS dcrm")
 print("Database created successfully")
-
-
-
